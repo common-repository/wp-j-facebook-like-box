@@ -1,0 +1,26 @@
+    #facebookcontainer {
+        bottom: 0px ;
+        display: none ;
+        left: 5px ;
+        position: fixed ;
+        float: right;
+        box-shadow: 2px 4px 9px 4px #CCCCCC;
+        z-index: 9999;
+    }
+
+    #facebookcontainer #inner_facebook {
+        background-color: #F0F0F0 ;
+        border-bottom-width: 0px ;
+        border-radius:5px 5px 0px 0px;
+    }
+    #facebookcontainer .fb_close_box {
+        background: url("fb_close_box.png") no-repeat scroll left top transparent;
+        cursor: pointer;
+        float: right;
+        height: 20px;
+        margin-right: -10px;
+        margin-top: -20px;
+        position: relative;
+        width: 20px;
+        z-index: 100;
+    }
